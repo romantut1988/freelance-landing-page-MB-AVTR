@@ -9,7 +9,12 @@ html {
 }
 
 body {
+    font-family: 'Roboto Condensed', sans-serif;
     background: #070A1B;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 400;
+    color: #fff;
 }
 
 a {
