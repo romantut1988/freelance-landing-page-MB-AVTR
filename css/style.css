@@ -22,6 +22,10 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style: none;
+}
+
 button {
     background-color: transparent;
     border: none;
@@ -43,6 +47,24 @@ button {
     height: 100px;
 }
 
-.header__nav {
+.list {
+    display: flex;
+}
 
+.list__item + .list__item {
+    margin-left: 30px;
+}
+
+.list__link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background .3s;
+}
+
+.list__link:hover {
+    background-color: #C1A1D2;
 }
