@@ -8,6 +8,14 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'Corporate-A-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Corporate-A-Bold.woff2') format('woff2'),
+         url('../fonts/Corporate-A-Bold.woff') format('woff');
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     background: #070A1B;
@@ -75,4 +83,18 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
+
+.title {
+    font-family: 'Corporate-A-Bold';
+    margin-bottom: 5px;
+    font-size: 72px;
+    line-height: 120%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
