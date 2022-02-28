@@ -68,3 +68,11 @@ button {
 .list__link:hover {
     background-color: #C1A1D2;
 }
+
+.header__content {
+    background-image: url("../images/header-bg.png");
+    min-height: calc(100vh - 100px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
