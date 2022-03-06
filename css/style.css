@@ -123,6 +123,10 @@ button {
     margin-bottom: 50px;
 }
 
+.footer {
+    background: #070A1B;
+}
+
 .footer__inner {
     display: flex;
     justify-content: space-between;
