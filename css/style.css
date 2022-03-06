@@ -263,3 +263,31 @@ button {
 .design__cell-text {
     margin-bottom: 15px;
 }
+
+.design-slider__item {
+    margin: 0 30px;
+}
+
+.slick-track {
+    margin-left: -30px;
+}
+
+.design-slider {
+    padding-bottom: 25px;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    bottom: 0;
+    left: 50%;
+}
+
+.arrow-left {
+    transform: translate(-80px);
+}
+
+.arrow-right {
+    transform: translate(30px);
+}
