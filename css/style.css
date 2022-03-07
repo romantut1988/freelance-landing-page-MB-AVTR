@@ -312,4 +312,9 @@ button {
     max-width: 100%;
     display: block;
     object-fit: cover;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    
 }
