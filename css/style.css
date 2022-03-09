@@ -30,6 +30,10 @@ a {
     color: inherit;
 }
 
+img {
+    max-width: 100%;
+}
+
 ul {
     list-style: none;
 }
@@ -334,6 +338,14 @@ button {
     }
     .title-descr {
         font-size: 18px;
+    }
+
+    .concept {
+        padding-top: 75px;
+        margin-bottom: 75px;
+    }
+    .concept__text {
+        font-size: 16px;
     }
 }
 
